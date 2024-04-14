@@ -1,0 +1,54 @@
+:root {
+    --branding-color: #F2F1EB;
+}
+
+.navbar {
+    background-color: #F2F1EB;
+    
+}
+
+.navbar a {
+    color: black;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Vollkorn", serif;
+    color: black;
+    font-weight: bold;
+}
+
+
+.hero {
+    background-color: #F2F1EB;
+    text-align: center;
+    padding: 160px 20px;
+}
+
+.hero p {
+    font-family: "Poppins", serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.hero h1 {
+    font-family: "Vollkorn", serif;
+    font-size: 96px;
+    font-weight: bold;
+}
+
+.hero h2 {
+    font-family: "Poppins", serif;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.hero .btn-branding {
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    background-color: #6b8a70;
+    border-radius: 4px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
