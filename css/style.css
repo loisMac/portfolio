@@ -40,6 +40,7 @@ h1, h2, h3, h4, h5, h6 {
     
     font-size: 96px;
     font-weight: bold;
+    line-height: 1.5;
 }
 
 .hero h2 {
@@ -87,6 +88,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 960px) {
+    .hero h1 {
+        font-size: 44px;
+        line-height: 1.5;
+    }
+    .hero {
+        padding: 80px 20px;
+    }
+    .container h2 {
+        font-size: 44px;
+    }
    .container .product-description{
         padding: 0;
         text-align: center;
