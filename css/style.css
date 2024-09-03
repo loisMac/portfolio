@@ -72,7 +72,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .content-container  h1 {
     font-family: var(--heading-font-family);
-    padding-top: 30px;
     font-size: 64px;
     font-weight: bold;
     line-height: 1.0;   
