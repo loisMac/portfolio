@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 15px 30px;
 }
 
-.hero-about {
+.about-section {
     background-color: white;
     text-align: left;
     padding: 160px 20px;
@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-.hero-about h1 {
+.about-section h1 {
     font-family: var(--heading-font-family);
     padding-top: 30px;
     font-size: 64px;
@@ -78,26 +78,47 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.0;   
 }
 
-.hero-about h2 {
+.about-section h2 {
     padding-top: 10px;
     font-family: var(--default-font-family);
     font-weight: bold;
     font-size: 18px;
 }
 
- .hero-about .paragraph {
+ .about-section .paragraph {
     padding-top: 30px;
     padding-bottom: 30px;
     font-family: var(--default-font-family);
-    font-size: 20px;
+    font-size: 16px;
     font-weight: normal;
     line-height: 1.5;
     margin: 0;
 }
 
-.hero-about img {
+ .about-section .btn-branding {
+    color: white;
+    font-family: var(--default-font-family);
+    font-size: 18px;
+    background-color: var(--button-color);
+    border: 1px solid var(--button-color);
+    border-radius: 4px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+
+.about-section .btn-branding :hover {
+    color: black;
+    transition: 200ms ease-in-out;
+}
+
+.about-section img {
     border-radius: 10px;
-   
+    max-height: 500px;
+
+}
+
+.about-section-content {
+    margin: 30px;
 }
 
 .container .projects h2 {
@@ -135,7 +156,24 @@ h1, h2, h3, h4, h5, h6 {
     .hero {
         padding: 80px 20px;
     }
-    .container h2 {
+    .about-section {
+        text-align: center;
+        padding: 0;
+    }
+    .about-section h1 {
+        font-family: var(--heading-font-family);
+        padding-top: 30px;
+        font-size: 52px;
+        font-weight: bold;
+        line-height: 1.0;  
+    }
+    .about-section h2 {
+        padding-top: 10px;
+    font-family: var(--default-font-family);
+    font-weight: bold;
+    font-size: 22px;
+    }
+    .container .product-description h2 {
         font-size: 44px;
     }
    .container .product-description{
