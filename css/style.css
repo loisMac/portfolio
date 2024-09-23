@@ -52,7 +52,18 @@ h1, h2, h3, h4, h5, h6 {
     
 }
 
-.hero .btn-branding {
+ .hero .btn-branding {
+    font-family: var(--default-font-family);
+    color: white;
+    font-size: 18px;
+    background-color: var(--button-color);
+    border: 1px solid var(--button-color);
+    border-radius: 4px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+
+.hero .btn-branding:hover {
     font-family: var(--default-font-family);
     font-size: 18px;
     background-color: var(--button-color);
@@ -160,6 +171,75 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
+footer {
+    margin: 60px 0;
+}
+
+footer h4 {
+    font-size: 48px;
+}
+
+footer .contact-box {
+    background: var(--branding-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+
+footer .contact-box p {
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+footer .contact-box .btn-branding {
+    font-family: var(--default-font-family);
+    color: white;
+    font-size: 18px;
+    background-color: var(--button-color);
+    border: 1px solid var(--button-color);
+    border-radius: 4px;
+    line-height: 27px;
+    padding: 15px 30px;
+    transition: all 150ms ease-in-out;
+}
+
+footer .contact-box .btn-branding:hover {
+    font-family: var(--default-font-family);
+    color: black;
+    font-size: 18px;
+    background-color: var(--button-color);
+    border: 1px solid var(--button-color);
+    border-radius: 4px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+
+footer .email-link {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+}
+
+footer .email-link:hover {
+    color: var(--button-color);
+}
+
+footer .social-links a {
+margin: 0 10px;
+color: var(--button-color);
+background-color: var(--branding-color);
+padding: 10px 14px;
+font-size: 18px;
+border-radius: 50%;
+transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover {
+    color: var(--branding-color);
+    background-color: var(--button-color);
+} 
+
 @media (max-width: 960px) {
     .hero h1 {
         font-size: 44px;
@@ -199,5 +279,22 @@ h1, h2, h3, h4, h5, h6 {
     .projects h1 {
         font-size: 44px;
 
+    }
+
+    footer .contact-box {
+        padding: 30px;
+    }
+
+    footer .contact-box p {
+        font-size: 14px;
+    }
+
+    footer .contact-box .btn {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    footer h4 {
+        font-size: 18px;
     }
 }
