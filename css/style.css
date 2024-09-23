@@ -6,7 +6,7 @@
 }
 
 .navbar {
-    background-color: var(--branding-color);
+    background-color: white;
     
 }
 
@@ -158,8 +158,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container .btn-branding-outline {
-    color: var(--button-color);
+    color: black;
     border: 1px solid var(--button-color);
+    background-color: white;
     border-radius: 4px;
     line-height: 27px;
     padding: 15px 30px;
